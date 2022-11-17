@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/2761c47128.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="left-nav">
+      <div class="logo">
+        <a onclick="openHomepage()"><span>SHOP</span>LANE</a>
+      </div>
+      <div class="clothing">
+        <a href="#clothLink">CLOTHING</a>
+      </div>
+      <div class="accessories">
+        <a href="#accessoriesLink">ACCESSORIES</a>
+      </div>
+    </div>
+    <div class="searchbar">
+      <i id="cart-icon" class="fa-solid fa-magnifying-glass"></i>
+      <input id="search-box" type="text" placeholder="Search for Clothing and Accessories">
+    </div>
+    <div class="right-nav">
+      <div class="cart">
+        <p class="product-count">0</p>
+        <a id="click-cart"><i class="fa-solid fa-cart-shopping" ></i></a>
+
+      </div>
+      <div class="smallimg">
+        <img src="https://test-hosting-8f9bf.web.app/assets/avatar.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5" id="homepage">
+
+
+    <div id="carouselExampleIndicators" class="carousel-slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./undefined - Imgur (1).png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./undefined - Imgur (2).png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./undefined - Imgur (3).png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./undefined - Imgur.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-indicators" style="position: relative;">
+      <button type="button" id="btn1" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" id="btn2" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" id="btn3" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" id="btn4" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+   <div class="orderCount"></div>
+    <div id="clothLink">
+      <h5 class="top-heading">Clothing for men and women</h5>
+      <div class="card_flex1">
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price">Rs</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-price"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container product-detail">
+    <div class="main-section">
+      <div class="left-side">
+        <img id="left-image" src="" alt="man">
+      </div>
+      <div class="right-side">
+        <div class="rightside-div">
+          <h1 id="name" class="headingName"></h1>
+        </div>
+        <h3 id="united" class="unitedClass"></h3>
+        <h3 class="priceClass" id="price"> <span></span></h3>
+        <h3 id="description" class="descriptionClass">Description</h3>
+
+        <p id="para" class="paraClass">
+        <h3>Product Preview</h3>
+        </p>
+        <div class="product-div">
+          <h3 class="product"></h3>
+          <div class="product-image">
+            <img class="man-img activeBorder">
+            <img class="man-img">
+            <img class="man-img">
+            <img class="man-img">
+            <img class="man-img">
+          </div>
+        </div>
+        <div class="btn">
+          <button id="add-to-cart" onclick="displayitemCount(event)">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container cart-page">
+    <h1 id="checkoutText">Checkout</h1>
+    <div class="main-cart">
+      <div class="cart-left">
+        <h3 id="totalItem">Total Item: <span>0</span></h3>
+      </div>
+      <div class="cart-right">
+        <div class="cart-right-child">
+      <h3 id="totalAmounttext">Total Amount</h3>
+      <p id="totalAmount">Amount: Rs. <span id="priceRs">233</span></p>
+      <button class="btn-place-order">Place order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="orderPlaced">
+    <img class="orderImage" src="./placed image2.png" alt="">
+    <h3 class="orderLine">Order Placed Successfully!!</h3>
+    <p class="orderPara">We have sent you an email with the order details</p>
+  </div>
+  <div class="fotter">
+    <div class="fotterContent">
+      <div class="store">
+        <p class="heading">ONLINE STORE</p>
+        <a href="" class="links">MEN CLOTHING</a>
+        <a href="" class="links">WOMEN CLOTHING</a>
+        <a href="" class="links">MEN ACCESSORIES</a>
+        <a href="" class="links">WOMEN ACCESSORIES</a>
+      </div>
+      <div class="helpful">
+        <p class="heading">HELPFUL LINKS</p>
+        <a href="" class="links">HOME</a>
+        <a href="" class="links">ABOUT</a>
+        <a href="" class="links">CONTACT</a>
+      </div>
+      <div class="partners">
+        <p class="heading">PARTNERS</p>
+        <a href="" class="links">ZARA</a>
+        <a href="" class="links">PANTALOONS</a>
+        <a href="" class="links">LEVIS</a>
+        <a href="" class="links">UCB</a>
+        <a href="" class="links">+ MANY MORE</a>
+      </div>
+      <div class="address">
+        <p class="heading">ADDRESS</p>
+        <a href="" class="links">BUILDING 101</a>
+        <a href="" class="links">CENTRAL AVENUE</a>
+        <a href="" class="links">LA - 902722</a>
+        <a href="" class="links">UNITED STATES</a>
+      </div>
+    </div>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
